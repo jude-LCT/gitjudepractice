@@ -4,14 +4,46 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.max-width {
+  max-width: 100%;
+  padding: 50px;
+}
+.max-width a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -500px;
+  margin-top: 35px;
+}
+span {
+  color: blue;
+}
 .navbar {
   position: relative;
   width: 100%;
-  padding: 30px, 0;
-  background-color: tomato;
+  padding: 22px, 0;
+  height: 250px;
+  background-color: turquoise;
 }
-.navbar .logo a {
-  color: #fff;
-  font-size: 35;
+.navbar .max-width {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: rgb(67, 99, 72);
+  font-size: 18px;
   font-weight: 500;
+  margin-left: 100px;
+  margin-top: 25px;
 }
