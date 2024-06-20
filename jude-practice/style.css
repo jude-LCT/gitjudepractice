@@ -7,6 +7,7 @@
 .max-width {
   max-width: 100%;
   padding: 50px;
+  margin: auto;
 }
 .max-width a {
   display: block;
@@ -55,4 +56,15 @@ a:hover {
 }
 span:hover {
   color: antiquewhite;
+}
+/* Home Section */
+.home {
+  display: flex;
+  background: url(image/banner.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: scroll;
+  color: red;
+  font-family: "Monserrat" sans-serif;
+  height: 100vh;
+  min-height: 500px;
 }
