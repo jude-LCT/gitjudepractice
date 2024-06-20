@@ -1,4 +1,5 @@
 * {
+  font-family: "Monserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -67,4 +68,18 @@ span:hover {
   font-family: "Monserrat" sans-serif;
   height: 100vh;
   min-height: 500px;
+}
+.home .max-width {
+  margin: auto 0 auto 30px;
+}
+.home .home-content .text-1 {
+  font-size: 24px;
+}
+.home .home-content .text-2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-left: -2px;
+}
+.home .home-content .text-3 {
+  font-size: 24px;
 }
